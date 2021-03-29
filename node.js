@@ -65,6 +65,16 @@ module.exports = function (RED) {
                 <style>.nr-dashboard-ui_table { padding:0; }</style>
                 <link href='ui-table/css/tabulator`+mid+`.min.css' rel='stylesheet' type='text/css'>
                 <script type='text/javascript' src='ui-table/js/tabulator.js'></script>
+                <table>  
+                    <tr>
+                        <th>Month</th>
+                        <th>Savings</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                    </tr>
+                </table>
                 <div id='ui_table-{{$id}}' style="background-color:unset; border:unset;"></div>
                 <input type='hidden' ng-init='init(` + configAsJson + `)'>
             `;
