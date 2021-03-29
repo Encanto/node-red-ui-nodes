@@ -1,4 +1,4 @@
-node-red-node-ui-table
+node-red-node-ui-table update.
 ======================
 
 A Node-RED UI widget node which displays data as a table.
